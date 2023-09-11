@@ -1,1 +1,32 @@
-/* this is style sheet for teset code
+body{
+    background-image: url("https://wallpaperaccess.com/full/1502023.jpg");
+}
+
+/* highlight style */
+.highlight-title{
+background-color: yellow;
+max-width: fit-content;
+padding-right: 20px;
+padding-left: 50px;
+font-size: 2.5em;
+font-weight: bolder;
+}
+.highlight-left{
+    background-color: rgba(229, 255, 0, 0.713);
+    max-width: 60%;
+    padding-left: 10%;
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-align: center;
+} 
+.highlight-right{
+    background-color: rgba(229, 255, 0, 0.713);
+    max-width: 100%;
+    margin-left: 20%;
+    padding-left: 10%;
+    font-size: 2.5em;
+    font-weight: bolder;
+    /* text-align: center; */
+}
+/* highlight style */
+
