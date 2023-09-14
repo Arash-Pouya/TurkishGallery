@@ -1,37 +1,65 @@
-body{
-    background-image: url("https://wallpaperaccess.com/full/1502023.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-transform: Uppercase;
+body {
+  /* background-image: url("https://wallpaperaccess.com/full/1502023.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-transform: Uppercase;
 }
 
 /* highlight style */
-.highlight-title{
-background-color: yellow;
-width: fit-content;
-padding-right: 20px;
-padding-left: 50px;
-font-size: 2.5vw;
-font-weight: bolder;
-border-radius: 0 5px 5px 0;
+.highlight-title {
+  background-color: yellow;
+  width: fit-content;
+  padding-right: 20px;
+  padding-left: 50px;
+  font-size: 2.5vw;
+  font-weight: bolder;
+  border-radius: 0 5px 5px 0;
 }
-.highlight-left{
-    background-color: rgba(229, 255, 0, 0.713);
-    backdrop-filter: blur(5px);
-    width: 65%;
-    padding-left: 10%;
-    font-size: 2.5vw;
-    font-weight: bolder;
-    text-align: center;
-} 
-.highlight-right{
-    background-color: rgba(229, 255, 0, 0.713);
-    max-width: 100%;
-    margin-left: 20%;
-    padding-left: 10%;
-    font-size: 2.5vw;
-    font-weight: bolder;
-    /* text-align: center; */
+.highlight-left {
+  background-color: rgba(229, 255, 0, 0.713);
+  backdrop-filter: blur(5px);
+  width: 65%;
+  padding-left: 10%;
+  font-size: 2.5vw;
+  font-weight: bolder;
+  text-align: center;
+}
+.highlight-right {
+  background-color: rgba(229, 255, 0, 0.713);
+  max-width: 100%;
+  margin-left: 20%;
+  padding-left: 10%;
+  font-size: 2.5vw;
+  font-weight: bolder;
+  /* text-align: center; */
 }
 /* highlight style */
 
+/* ChangeLanguageButton */
+
+.change-language {
+  background-color: rgba(255, 255, 255, 0.478);
+  backdrop-filter: blur(10px);
+  border-radius: 75px;
+  width: 20vh;
+  left: 50%;
+  top: 10px;
+  z-index: 100;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  -webkit-box-shadow: 0px 0px 24px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 24px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 24px -8px rgba(0, 0, 0, 0.75);
+}
+.change-language img {
+  border-radius: 150%;
+  margin: 10px;
+  max-width: 3vh;
+}
+/* ChangeLanguageButton */
+
+.container-fluid img {
+  height: 100%;
+  width: 100%;
+}
