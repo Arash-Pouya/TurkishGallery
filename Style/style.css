@@ -110,7 +110,8 @@ li {
 }
 
 span {
-  background-color: yellow;
+  background: rgb(224, 255, 0);
+  background: linear-gradient(90deg, rgba(224, 255, 0, 1) 0%, rgba(255, 255, 255, 0.8603816526610644) 60%);
   color: black;
   z-index: -100000;
   max-width: 100%;
