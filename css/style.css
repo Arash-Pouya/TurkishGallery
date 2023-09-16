@@ -85,23 +85,31 @@ body {
 
 #FirstImg {
   /* background-color: red; */
-  margin-top: 50vh;
+  margin-top: 30%;
 }
 
 #TI {
   margin-top: 10%;
 }
 .paragraph {
-  padding: 50px;
+  background-color: green;
+  padding: 2%;
   text-align: justify;
   font-size: 2vw;
 }
 
 .description {
   font-size: 2.5vw;
+  background-color: blue;
+}
+.description-ul {
+  background-color: red;
+  width: fit-content;
+  font-size: 1.5vw;
 }
 .description-paragraph {
-  padding: 6px;
+  background-color: aqua;
+  padding: 1%;
   text-align: justify;
   font-size: 1.5vw;
 }
