@@ -5,6 +5,23 @@ body {
   text-transform: Uppercase;
 }
 
+nav div {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: normal;
+  align-content: normal;
+}
+nav a {
+  color: white;
+  padding: 5px;
+  margin: 0px 10px 5px 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
 /* highlight style */
 .highlight-title {
   background-color: yellow;
@@ -80,7 +97,9 @@ body {
   /* object-fit: cover; */
   /* height: 100px; */
   width: 100%;
+  height: auto;
   overflow: hidden;
+  /* max-height: 100vh; */
 }
 
 #FirstImg {
@@ -123,4 +142,23 @@ span {
   color: black;
   z-index: -100000;
   max-width: 100%;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
 }
