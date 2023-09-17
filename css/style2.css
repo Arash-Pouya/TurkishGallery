@@ -3,6 +3,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   text-transform: Uppercase;
+  direction: rtl;
 }
 
 nav div {
@@ -34,10 +35,11 @@ nav a {
 }
 
 .highlight-title-intro {
+  /* direction: ltr; */
   background-color: yellow;
   width: fit-content;
-  padding-right: 20px;
-  padding-left: 30%;
+  padding-left: 20px;
+  padding-right: 30%;
   font-size: 4vw;
   font-weight: bolder;
 }
@@ -138,7 +140,7 @@ li {
 
 span {
   background: rgb(224, 255, 0);
-  background: linear-gradient(90deg, rgba(224, 255, 0, 1) 0%, rgba(255, 255, 255, 0.8603816526610644) 60%);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.8603816526610644) 41%, rgba(255, 255, 255, 0.8603816526610644) 48%, rgba(224, 255, 0, 1) 100%);
   color: black;
   z-index: -100000;
   max-width: 100%;
