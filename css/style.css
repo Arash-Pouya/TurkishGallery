@@ -104,31 +104,33 @@ nav a {
 
 #FirstImg {
   /* background-color: red; */
-  margin-top: 30%;
+  margin-top: 10%;
 }
 
 #TI {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .paragraph {
   /* background-color: green; */
-  padding: 2%;
+  padding: 0 5% 0 5%;
   text-align: justify;
   font-size: 2vw;
 }
 
 .description {
   font-size: 2.5vw;
-  /* background-color: blue; */
+  padding: 2% 3% 0 3%;
 }
 .description-ul {
-  /* background-color: red; */
   width: fit-content;
   font-size: 1.5vw;
+  margin-left: 3%;
+  border-left: 8px solid rgb(254, 254, 0);
+  /* background-color: yellowgreen; */
 }
 .description-paragraph {
   /* background-color: aqua; */
-  padding: 1%;
+  padding: 0 3% 0 3%;
   text-align: justify;
   font-size: 1.5vw;
 }
