@@ -1,8 +1,14 @@
+@font-face {
+  font-family: "myFirstFont";
+  src: url("font/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
 body {
-  /* background-image: url("https://wallpaperaccess.com/full/1502023.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   text-transform: Uppercase;
+  font-family: "myFirstFont";
+  src: url("font/Bebas_Neue/BebasNeue-Regular.ttf");
 }
 
 nav div {
