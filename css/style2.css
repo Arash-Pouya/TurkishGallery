@@ -99,11 +99,9 @@ nav a {
   padding: 2% 3% 0 3%;
 }
 .description-ul {
-  /* background-color: red; */
   width: fit-content;
   font-size: 1.5vw;
-  margin-right: 3%;
-  border-right: 8px solid rgb(254, 254, 0);
+  padding: 2% 3% 0 3%;
 }
 .description-paragraph {
   /* background-color: aqua; */
@@ -113,6 +111,8 @@ nav a {
 }
 li {
   list-style: none;
+  border-left: 8px solid rgb(254, 254, 0);
+  padding: 0 3% 0 3%;
 }
 
 .float {

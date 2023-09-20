@@ -99,18 +99,17 @@ nav a {
 .description-ul {
   width: fit-content;
   font-size: 1.5vw;
-  margin-left: 3%;
-  border-left: 8px solid rgb(254, 254, 0);
-  /* background-color: yellowgreen; */
+  padding: 2% 3% 0 3%;
 }
 .description-paragraph {
-  /* background-color: aqua; */
   padding: 0 3% 0 3%;
   text-align: justify;
   font-size: 1.5vw;
 }
 li {
   list-style: none;
+  border-left: 8px solid rgb(254, 254, 0);
+  padding: 0 3% 0 3%;
 }
 
 .float {
