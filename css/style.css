@@ -103,19 +103,18 @@ nav a {
   padding: 2% 3% 0 3%;
 }
 .description-ul {
-  width: fit-content;
   font-size: 1.5vw;
-  padding: 2% 3% 0 3%;
 }
 .description-paragraph {
   padding: 0 3% 0 3%;
   text-align: justify;
   font-size: 1.5vw;
 }
+
 li {
   list-style: none;
   border-left: 8px solid rgb(254, 254, 0);
-  padding: 0 3% 0 3%;
+  padding: 0 3% 0 2%;
 }
 
 .float {
