@@ -149,6 +149,7 @@ li {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
   justify-items: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -156,14 +157,9 @@ li {
   align-items: center;
   text-decoration: none;
 }
-.call-buton .cc-calto-action-ripple i {
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-  font-size: 1.5rem;
-}
-.call-buton .cc-calto-action-ripple:hover i {
-  -webkit-transform: rotate(135deg);
-  transform: rotate(135deg);
+.call-buton .cc-calto-action-ripple img {
+  margin: 0 auto;
+  width: 30px;
 }
 
 @-webkit-keyframes cc-calto-action-ripple {
@@ -186,13 +182,6 @@ li {
     -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0);
     box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0);
   }
-}
-
-span.num {
-  position: absolute;
-  color: #ec8b00;
-  left: -30%;
-  bottom: -50%;
 }
 
 @media only screen and (max-width: 768px) {
